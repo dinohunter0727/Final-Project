@@ -1,0 +1,186 @@
+a, p, div, h1, html, body, input, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.space {
+    margin: 0 auto;
+    margin-bottom: 250px !important;
+    position: relative;
+    top: 130px;
+    width: 95%;
+    display: block;
+}
+
+#replyBlock {
+    background-color: whitesmoke;
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 80px;
+    z-index: 1;
+    display: flex;
+}
+
+#replyBlock p {
+    display: inline;
+    position: relative;
+    font-size: 25px;
+    right: -90px;
+    top: 20px;
+    color: lightskyblue;
+}
+
+#replyBlock p:hover {
+    color: darkslateblue;
+    cursor: pointer;
+}
+
+
+#comment {
+    position: relative;
+    height: 40px;
+    width: 60%;
+    font-size: 25px;
+    text-align: left;
+    border-radius: 4px;
+    left: 50px;
+    top: 20px;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+#name {
+    position: relative;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 25px;
+    text-align: left;
+    border-radius: 4px;
+    left: 50px;
+    top: 20px;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+#postBlock {
+    background-color: whitesmoke;
+    position: fixed;
+    min-width: 1000px;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    height: 160px;
+    width: 95%;
+    z-index: 2;
+}
+
+#postBlock h3 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#postBlock h1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 43px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.post {
+    position: relative;
+    margin: 30px auto;
+    top: 20px;
+    height: 120px;
+    width: 90%;
+    min-width: 1000px;
+    background-color: whitesmoke;
+}
+
+.post image {
+    width: 10px;
+}
+
+.post h1 {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.post h3 {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    font-size: 20px;
+}
+
+#edit {
+    position: absolute;
+    height: 10px;
+    right: 100px;
+    top: 5px;
+    font-size: 20px;
+    color: skyblue;
+}
+
+
+#edit:hover {
+    color: darkslateblue;
+    cursor: pointer;
+}
+
+#delete {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    height: 10px;
+    font-size: 20px;
+    color: skyblue;
+}
+
+#delete:hover {
+    color: darkslateblue;
+    cursor: pointer;
+}
+
+#editBox {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    width: 90%;
+    height: 70px;
+    resize: none;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.bg {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    min-height: 100vh;
+    background-color: gainsboro;
+    width: 95%;
+    z-index: -2;
+}
