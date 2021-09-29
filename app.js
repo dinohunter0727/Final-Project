@@ -5,7 +5,7 @@ var space = $(".space");
 
 
 submitButton.on('click', function() {
-    space.append(newPost());
+    space.prepend(newPost());
 });
 
 space.on('click', '#delete', function() {
